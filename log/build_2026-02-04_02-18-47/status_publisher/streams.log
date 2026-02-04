@@ -1,0 +1,61 @@
+[0.038s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher -- -j8 -l8
+[0.057s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.214s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.378s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.386s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.397s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.460s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.461s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.583s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.698s] -- Found status_interfaces: 0.0.0 (/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake)
+[0.712s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.791s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.791s] -- Configured cppcheck include dirs: 
+[0.791s] -- Configured cppcheck exclude dirs and/or files: 
+[0.792s] -- Added test 'lint_cmake' to check CMake code style
+[0.792s] -- Added test 'uncrustify' to check C / C++ code style
+[0.792s] -- Configured uncrustify additional arguments: 
+[0.792s] -- Added test 'xmllint' to check XML markup files
+[0.794s] -- Configuring done (0.7s)
+[0.812s] -- Generating done (0.0s)
+[0.818s] -- Build files have been written to: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher
+[0.855s] [ 50%] [32mBuilding CXX object CMakeFiles/sys_status_publisher.dir/src/sys_status_publisher.cpp.o[0m
+[2.486s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:[m[K In member function ‘[01m[Kvoid SysStatusPublisher::[01;32m[Kpublish_status[m[K()[m[K’:
+[2.486s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:87:51:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Ksg_mem_stats*[01;32m[K sg_get_mem_stats[m[K(size_t*)[m[K’
+[2.486s]    87 | tats *mem_stats = [01;31m[Ksg_get_mem_stats()[m[K;
+[2.486s]       |                   [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+[2.486s] 
+[2.486s] In file included from [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:3[m[K:
+[2.487s] [01m[K/usr/include/statgrab.h:227:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.487s]   227 | __sg_public sg_mem_stats *[01;36m[Ksg_get_mem_stats[m[K(size_t *entries);
+[2.487s]       |                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.487s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:141:54:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Ksg_load_stats*[01;32m[K sg_get_load_stats[m[K(size_t*)[m[K’
+[2.487s]   141 | ts *load_stats = [01;31m[Ksg_get_load_stats()[m[K;
+[2.487s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[2.487s] 
+[2.487s] [01m[K/usr/include/statgrab.h:238:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.487s]   238 | _sg_public sg_load_stats *[01;36m[Ksg_get_load_stats[m[K(size_t *entries);
+[2.487s]       |                           [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.487s] 
+[2.487s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:145:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kload_1min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.487s]   145 |             double [01;35m[Kload_1min[m[K = load_stats->min1;
+[2.487s]       |                    [01;35m[K^~~~~~~~~[m[K
+[2.487s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:146:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kload_5min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.487s]   146 |             double [01;35m[Kload_5min[m[K = load_stats->min5;
+[2.487s]       |                    [01;35m[K^~~~~~~~~[m[K
+[2.487s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:147:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kload_15min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.487s]   147 |             double [01;35m[Kload_15min[m[K = load_stats->min15;
+[2.487s]       |                    [01;35m[K^~~~~~~~~~[m[K
+[2.495s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.496s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:197:18:[m[K [01;31m[Kerror: [m[K‘[01m[KSG_ERROR_LEVEL_WARNING[m[K’ was not declared in this scope
+[2.496s]   197 |     sg_set_error([01;31m[KSG_ERROR_LEVEL_WARNING[m[K);
+[2.496s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.498s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:197:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksg_set_error[m[K’ was not declared in this scope; did you mean ‘[01m[Ksg_get_error[m[K’?
+[2.498s]   197 |     [01;31m[Ksg_set_error[m[K(SG_ERROR_LEVEL_WARNING);
+[2.498s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[2.498s]       |     [32m[Ksg_get_error[m[K
+[3.351s] gmake[2]: *** [CMakeFiles/sys_status_publisher.dir/build.make:76: CMakeFiles/sys_status_publisher.dir/src/sys_status_publisher.cpp.o] Error 1
+[3.351s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sys_status_publisher.dir/all] Error 2
+[3.351s] gmake: *** [Makefile:146: all] Error 2
+[3.352s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher' returned '2': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher -- -j8 -l8

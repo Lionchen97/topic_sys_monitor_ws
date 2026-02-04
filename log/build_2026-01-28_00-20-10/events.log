@@ -1,0 +1,361 @@
+[0.000000] (-) TimerEvent: {}
+[0.000657] (status_interfaces) JobQueued: {'identifier': 'status_interfaces', 'dependencies': OrderedDict()}
+[0.000727] (status_interfaces) JobStarted: {'identifier': 'status_interfaces'}
+[0.038302] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'cmake'}
+[0.041893] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces'], 'cwd': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'darkhorse', 'GIT_ASKPASS': '/home/darkhorse/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/darkhorse', 'OLDPWD': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src', 'TERM_PROGRAM_VERSION': '1.108.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-99796fa1-c1a5-4099-b46c-e1a2a4b2b1f6.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/darkhorse/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/darkhorse/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'darkhorse', 'NAME': 'WIN-PR2DF7I6U22', 'WSL_INTEROP': '/run/WSL/346_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/darkhorse/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/darkhorse/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/darkhorse/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/陈思捷/.local/bin:/mnt/c/Users/陈思捷/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/陈思捷/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-eff00b7e33.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.098474] (-) TimerEvent: {}
+[0.198951] (-) TimerEvent: {}
+[0.299441] (-) TimerEvent: {}
+[0.399945] (-) TimerEvent: {}
+[0.500490] (-) TimerEvent: {}
+[0.542771] (status_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.600647] (-) TimerEvent: {}
+[0.701090] (-) TimerEvent: {}
+[0.801430] (-) TimerEvent: {}
+[0.901870] (-) TimerEvent: {}
+[1.002345] (-) TimerEvent: {}
+[1.102798] (-) TimerEvent: {}
+[1.203344] (-) TimerEvent: {}
+[1.303802] (-) TimerEvent: {}
+[1.404171] (-) TimerEvent: {}
+[1.504692] (-) TimerEvent: {}
+[1.605076] (-) TimerEvent: {}
+[1.705511] (-) TimerEvent: {}
+[1.805848] (-) TimerEvent: {}
+[1.829897] (status_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.906066] (-) TimerEvent: {}
+[2.006613] (-) TimerEvent: {}
+[2.107308] (-) TimerEvent: {}
+[2.207991] (-) TimerEvent: {}
+[2.308415] (-) TimerEvent: {}
+[2.408910] (-) TimerEvent: {}
+[2.509464] (-) TimerEvent: {}
+[2.610370] (-) TimerEvent: {}
+[2.710934] (-) TimerEvent: {}
+[2.811322] (-) TimerEvent: {}
+[2.864469] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.911508] (-) TimerEvent: {}
+[3.012129] (-) TimerEvent: {}
+[3.112496] (-) TimerEvent: {}
+[3.212892] (-) TimerEvent: {}
+[3.260969] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.272596] (status_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.273962] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.275037] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.313042] (-) TimerEvent: {}
+[3.406108] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.413194] (-) TimerEvent: {}
+[3.513611] (-) TimerEvent: {}
+[3.614147] (-) TimerEvent: {}
+[3.714567] (-) TimerEvent: {}
+[3.814995] (-) TimerEvent: {}
+[3.847006] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.856705] (status_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.858122] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.858963] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.882831] (status_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.915148] (-) TimerEvent: {}
+[4.015547] (-) TimerEvent: {}
+[4.114617] (status_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.115641] (-) TimerEvent: {}
+[4.215978] (-) TimerEvent: {}
+[4.316444] (-) TimerEvent: {}
+[4.359529] (status_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[4.416586] (-) TimerEvent: {}
+[4.516953] (-) TimerEvent: {}
+[4.617357] (-) TimerEvent: {}
+[4.678151] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.708950] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.717505] (-) TimerEvent: {}
+[4.762318] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.810214] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.817638] (-) TimerEvent: {}
+[4.854359] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[4.893467] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[4.917787] (-) TimerEvent: {}
+[5.018185] (-) TimerEvent: {}
+[5.118553] (-) TimerEvent: {}
+[5.218950] (-) TimerEvent: {}
+[5.319350] (-) TimerEvent: {}
+[5.419792] (-) TimerEvent: {}
+[5.520111] (-) TimerEvent: {}
+[5.620499] (-) TimerEvent: {}
+[5.720884] (-) TimerEvent: {}
+[5.821244] (-) TimerEvent: {}
+[5.911360] (status_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[5.921335] (-) TimerEvent: {}
+[6.021786] (-) TimerEvent: {}
+[6.122199] (-) TimerEvent: {}
+[6.222566] (-) TimerEvent: {}
+[6.327590] (-) TimerEvent: {}
+[6.428043] (-) TimerEvent: {}
+[6.528417] (-) TimerEvent: {}
+[6.628829] (-) TimerEvent: {}
+[6.729109] (-) TimerEvent: {}
+[6.829648] (-) TimerEvent: {}
+[6.930052] (-) TimerEvent: {}
+[7.030534] (-) TimerEvent: {}
+[7.131133] (-) TimerEvent: {}
+[7.199609] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.232701] (-) TimerEvent: {}
+[7.333094] (-) TimerEvent: {}
+[7.433477] (-) TimerEvent: {}
+[7.533897] (-) TimerEvent: {}
+[7.634348] (-) TimerEvent: {}
+[7.686926] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.699856] (status_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[7.734494] (-) TimerEvent: {}
+[7.834935] (-) TimerEvent: {}
+[7.902930] (status_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[7.935098] (-) TimerEvent: {}
+[8.035522] (-) TimerEvent: {}
+[8.135909] (-) TimerEvent: {}
+[8.236293] (-) TimerEvent: {}
+[8.336670] (-) TimerEvent: {}
+[8.437043] (-) TimerEvent: {}
+[8.537433] (-) TimerEvent: {}
+[8.637732] (-) TimerEvent: {}
+[8.738121] (-) TimerEvent: {}
+[8.826399] (status_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[8.838276] (-) TimerEvent: {}
+[8.889361] (status_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[8.938532] (-) TimerEvent: {}
+[8.960860] (status_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.965192] (status_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.973284] (status_interfaces) StdoutLine: {'line': b'-- Configuring done (8.9s)\n'}
+[9.038601] (-) TimerEvent: {}
+[9.059869] (status_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[9.083047] (status_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces\n'}
+[9.090711] (status_interfaces) CommandEnded: {'returncode': 0}
+[9.094033] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'build'}
+[9.094064] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'darkhorse', 'GIT_ASKPASS': '/home/darkhorse/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/darkhorse', 'OLDPWD': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src', 'TERM_PROGRAM_VERSION': '1.108.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-99796fa1-c1a5-4099-b46c-e1a2a4b2b1f6.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/darkhorse/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/darkhorse/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'darkhorse', 'NAME': 'WIN-PR2DF7I6U22', 'WSL_INTEROP': '/run/WSL/346_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/darkhorse/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/darkhorse/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/darkhorse/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/陈思捷/.local/bin:/mnt/c/Users/陈思捷/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/陈思捷/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-eff00b7e33.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[9.139254] (-) TimerEvent: {}
+[9.175597] (status_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[9.182370] (status_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_status_interfaces\n'}
+[9.239474] (-) TimerEvent: {}
+[9.339917] (-) TimerEvent: {}
+[9.440604] (-) TimerEvent: {}
+[9.540142] (status_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[9.540715] (-) TimerEvent: {}
+[9.540943] (status_interfaces) StdoutLine: {'line': b'creating status_interfaces.egg-info\n'}
+[9.572901] (status_interfaces) StdoutLine: {'line': b'writing status_interfaces.egg-info/PKG-INFO\n'}
+[9.574683] (status_interfaces) StdoutLine: {'line': b'writing dependency_links to status_interfaces.egg-info/dependency_links.txt\n'}
+[9.575758] (status_interfaces) StdoutLine: {'line': b'writing top-level names to status_interfaces.egg-info/top_level.txt\n'}
+[9.575972] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[9.588093] (status_interfaces) StdoutLine: {'line': b'[  2%] Built target status_interfaces__rosidl_generator_type_description\n'}
+[9.605259] (status_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.622996] (status_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.640873] (-) TimerEvent: {}
+[9.665011] (status_interfaces) StdoutLine: {'line': b"reading manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[9.669308] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[9.714798] (status_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_status_interfaces_egg\n'}
+[9.740993] (-) TimerEvent: {}
+[9.841356] (-) TimerEvent: {}
+[9.941683] (-) TimerEvent: {}
+[10.043584] (-) TimerEvent: {}
+[10.059809] (status_interfaces) StdoutLine: {'line': b'[  8%] Built target status_interfaces__cpp\n'}
+[10.078422] (status_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o\x1b[0m\n'}
+[10.082398] (status_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__description.c.o\x1b[0m\n'}
+[10.082628] (status_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__type_support.c.o\x1b[0m\n'}
+[10.143698] (-) TimerEvent: {}
+[10.158679] (status_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[10.215120] (status_interfaces) StdoutLine: {'line': b'[ 20%] Built target status_interfaces__rosidl_generator_c\n'}
+[10.225274] (status_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.225441] (status_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.225491] (status_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.229708] (status_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.231554] (status_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.237150] (status_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.246066] (-) TimerEvent: {}
+[10.346666] (-) TimerEvent: {}
+[10.447017] (-) TimerEvent: {}
+[10.532918] (status_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o\x1b[0m\n'}
+[10.547222] (-) TimerEvent: {}
+[10.557352] (status_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[10.560170] (status_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[10.572181] (status_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o\x1b[0m\n'}
+[10.573389] (status_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o\x1b[0m\n'}
+[10.592582] (status_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o\x1b[0m\n'}
+[10.606193] (status_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.614755] (status_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.647353] (-) TimerEvent: {}
+[10.700682] (status_interfaces) StdoutLine: {'line': b'[ 61%] Built target status_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.702456] (status_interfaces) StdoutLine: {'line': b'[ 61%] Built target status_interfaces__rosidl_typesupport_c\n'}
+[10.747486] (-) TimerEvent: {}
+[10.847837] (-) TimerEvent: {}
+[10.886435] (status_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.892781] (status_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.948018] (-) TimerEvent: {}
+[10.954045] (status_interfaces) StdoutLine: {'line': b'[ 67%] Built target status_interfaces__rosidl_typesupport_cpp\n'}
+[10.973255] (status_interfaces) StdoutLine: {'line': b'[ 67%] Built target status_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[11.032271] (status_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.047869] (status_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.048069] (-) TimerEvent: {}
+[11.148370] (-) TimerEvent: {}
+[11.164760] (status_interfaces) StdoutLine: {'line': b'[ 73%] Built target status_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[11.173202] (status_interfaces) StdoutLine: {'line': b'[ 73%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[11.191014] (status_interfaces) StdoutLine: {'line': b'[ 73%] Built target status_interfaces\n'}
+[11.207702] (status_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.248464] (-) TimerEvent: {}
+[11.348710] (-) TimerEvent: {}
+[11.448955] (-) TimerEvent: {}
+[11.549281] (-) TimerEvent: {}
+[11.552583] (status_interfaces) StdoutLine: {'line': b'[ 76%] Built target status_interfaces__py\n'}
+[11.572399] (status_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o\x1b[0m\n'}
+[11.649398] (-) TimerEvent: {}
+[11.737610] (status_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libstatus_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.749546] (-) TimerEvent: {}
+[11.839862] (status_interfaces) StdoutLine: {'line': b'[ 82%] Built target status_interfaces__rosidl_generator_py\n'}
+[11.849669] (-) TimerEvent: {}
+[11.866300] (status_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.866635] (status_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.871702] (status_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.949754] (-) TimerEvent: {}
+[11.964653] (status_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.970785] (status_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.979179] (status_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.038957] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces_s__rosidl_typesupport_c\n'}
+[12.039625] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[12.049855] (-) TimerEvent: {}
+[12.069428] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[12.080483] (status_interfaces) CommandEnded: {'returncode': 0}
+[12.080937] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'install'}
+[12.089112] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces'], 'cwd': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'darkhorse', 'GIT_ASKPASS': '/home/darkhorse/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/darkhorse', 'OLDPWD': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src', 'TERM_PROGRAM_VERSION': '1.108.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-99796fa1-c1a5-4099-b46c-e1a2a4b2b1f6.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/darkhorse/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/darkhorse/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'darkhorse', 'NAME': 'WIN-PR2DF7I6U22', 'WSL_INTEROP': '/run/WSL/346_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/darkhorse/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/darkhorse/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/darkhorse/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/陈思捷/.local/bin:/mnt/c/Users/陈思捷/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/陈思捷/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-eff00b7e33.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[12.095580] (status_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.097286] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces\n'}
+[12.097663] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.json\n'}
+[12.097880] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.098108] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.098250] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.098402] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h\n'}
+[12.098570] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.098675] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h\n'}
+[12.098743] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c\n'}
+[12.098805] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h\n'}
+[12.098863] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c\n'}
+[12.098940] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h\n'}
+[12.099000] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__description.c\n'}
+[12.099284] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh\n'}
+[12.099404] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv\n'}
+[12.099675] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so\n'}
+[12.099957] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""\n'}
+[12.100330] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.100452] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.100571] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.100676] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.100789] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[12.100906] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.101025] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.101140] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.101252] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.101577] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.101694] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp\n'}
+[12.101758] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.101850] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp\n'}
+[12.102112] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp\n'}
+[12.102214] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp\n'}
+[12.102265] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[12.102317] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.102356] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.102392] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.102429] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.102592] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps\n'}
+[12.102652] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.102697] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.102736] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.102774] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.102810] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.103024] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.103091] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[12.103129] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c\n'}
+[12.103163] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.103288] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.103359] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.103780] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so\n'}
+[12.104186] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[12.104278] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.104399] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.104662] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.104748] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.104812] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp\n'}
+[12.104865] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.104961] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.105255] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.105329] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[12.105368] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh\n'}
+[12.105551] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv\n'}
+[12.105697] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info\n'}
+[12.105809] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[12.105863] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[12.105913] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[12.106006] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[12.106054] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces\n'}
+[12.106298] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.106538] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py\n'}
+[12.106684] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.106754] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.107025] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[12.107121] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so\n'}
+[12.107176] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg\n'}
+[12.107214] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status_s.c\n'}
+[12.107249] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py\n'}
+[12.107284] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status.py\n'}
+[12.107317] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.142418] (status_interfaces) StdoutLine: {'line': b"Listing '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces'...\n"}
+[12.142671] (status_interfaces) StdoutLine: {'line': b"Compiling '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py'...\n"}
+[12.142733] (status_interfaces) StdoutLine: {'line': b"Listing '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg'...\n"}
+[12.142781] (status_interfaces) StdoutLine: {'line': b"Compiling '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py'...\n"}
+[12.142823] (status_interfaces) StdoutLine: {'line': b"Compiling '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status.py'...\n"}
+[12.147073] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.147485] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.148047] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[12.148201] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.148299] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so\n'}
+[12.148606] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[12.148780] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so\n'}
+[12.149069] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""\n'}
+[12.149128] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl\n'}
+[12.149170] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg\n'}
+[12.149207] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces\n'}
+[12.149728] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces\n'}
+[12.149891] (-) TimerEvent: {}
+[12.149963] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh\n'}
+[12.150067] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.150148] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/path.sh\n'}
+[12.150217] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv\n'}
+[12.150283] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/local_setup.bash\n'}
+[12.150558] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/local_setup.sh\n'}
+[12.150781] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh\n'}
+[12.150928] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv\n'}
+[12.151179] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/package.dsv\n'}
+[12.151407] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces\n'}
+[12.151617] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.151723] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.151825] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.151900] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.151963] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.152294] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.152408] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.152617] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.152683] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.152726] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.152767] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.152904] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.152999] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.153042] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.153086] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.153178] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.153231] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.153269] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.153305] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.153573] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.153665] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.153715] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.154011] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.154388] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.154553] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake\n'}
+[12.154762] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake\n'}
+[12.154953] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/package.xml\n'}
+[12.156877] (status_interfaces) CommandEnded: {'returncode': 0}
+[12.183107] (status_interfaces) JobEnded: {'identifier': 'status_interfaces', 'rc': 0}
+[12.183781] (-) EventReactorShutdown: {}

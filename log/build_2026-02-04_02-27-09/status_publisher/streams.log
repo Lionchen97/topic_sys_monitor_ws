@@ -1,0 +1,46 @@
+[0.036s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher -- -j8 -l8
+[0.055s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.291s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.372s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.379s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.388s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.399s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.450s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.450s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.564s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.680s] -- Found status_interfaces: 0.0.0 (/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake)
+[0.692s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.772s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.772s] -- Configured cppcheck include dirs: 
+[0.772s] -- Configured cppcheck exclude dirs and/or files: 
+[0.772s] -- Added test 'lint_cmake' to check CMake code style
+[0.773s] -- Added test 'uncrustify' to check C / C++ code style
+[0.773s] -- Configured uncrustify additional arguments: 
+[0.773s] -- Added test 'xmllint' to check XML markup files
+[0.775s] -- Configuring done (0.7s)
+[0.787s] -- Generating done (0.0s)
+[0.792s] -- Build files have been written to: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher
+[0.830s] [ 50%] [32mBuilding CXX object CMakeFiles/sys_status_publisher.dir/src/sys_status_publisher.cpp.o[0m
+[4.541s] [100%] [32m[1mLinking CXX executable sys_status_publisher[0m
+[4.701s] [100%] Built target sys_status_publisher
+[4.711s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher' returned '0': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher -- -j8 -l8
+[4.712s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher
+[4.719s] -- Install configuration: ""
+[4.719s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/lib/status_publisher/sys_status_publisher
+[4.722s] -- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/lib/status_publisher/sys_status_publisher" to ""
+[4.722s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/ament_index/resource_index/package_run_dependencies/status_publisher
+[4.723s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/ament_index/resource_index/parent_prefix_path/status_publisher
+[4.723s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/environment/ament_prefix_path.sh
+[4.723s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/environment/ament_prefix_path.dsv
+[4.723s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/environment/path.sh
+[4.723s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/environment/path.dsv
+[4.723s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/local_setup.bash
+[4.723s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/local_setup.sh
+[4.723s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/local_setup.zsh
+[4.723s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/local_setup.dsv
+[4.723s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/package.dsv
+[4.723s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/ament_index/resource_index/packages/status_publisher
+[4.723s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/cmake/status_publisherConfig.cmake
+[4.723s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/cmake/status_publisherConfig-version.cmake
+[4.723s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/package.xml
+[4.725s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher' returned '0': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher

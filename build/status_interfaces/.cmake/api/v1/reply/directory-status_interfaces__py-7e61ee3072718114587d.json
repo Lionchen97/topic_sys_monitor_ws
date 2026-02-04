@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "status_interfaces__py",
+		"source" : "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces/status_interfaces__py"
+	}
+}

@@ -1,0 +1,37 @@
+[0.039s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display': AMENT_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display -- -j8 -l8
+[0.056s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.240s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.340s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.347s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.355s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.414s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.414s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.521s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.611s] -- Found status_interfaces: 0.0.0 (/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake)
+[0.660s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.747s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.747s] -- Configured cppcheck include dirs: 
+[0.747s] -- Configured cppcheck exclude dirs and/or files: 
+[0.747s] -- Added test 'lint_cmake' to check CMake code style
+[0.748s] -- Added test 'uncrustify' to check C / C++ code style
+[0.748s] -- Configured uncrustify additional arguments: 
+[0.748s] -- Added test 'xmllint' to check XML markup files
+[0.749s] -- Configuring done (0.7s)
+[0.751s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[0.751s]   Cannot find source file:
+[0.751s] 
+[0.751s]     include/sys_status_display.h
+[0.751s] 
+[0.751s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.751s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.751s]   .f95 .f03 .hip .ispc
+[0.751s] 
+[0.751s] [0m
+[0.752s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[0.752s]   No SOURCES given to target: sys_status_display
+[0.752s] 
+[0.752s] [0m
+[0.752s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.757s] gmake: *** [Makefile:322: cmake_check_build_system] Error 1
+[0.759s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display' returned '2': AMENT_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display -- -j8 -l8

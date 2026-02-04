@@ -1,0 +1,232 @@
+[0.047s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces
+[0.542s] -- The C compiler identification is GNU 13.3.0
+[1.829s] -- The CXX compiler identification is GNU 13.3.0
+[2.864s] -- Detecting C compiler ABI info
+[3.260s] -- Detecting C compiler ABI info - done
+[3.272s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.273s] -- Detecting C compile features
+[3.274s] -- Detecting C compile features - done
+[3.406s] -- Detecting CXX compiler ABI info
+[3.847s] -- Detecting CXX compiler ABI info - done
+[3.856s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.858s] -- Detecting CXX compile features
+[3.858s] -- Detecting CXX compile features - done
+[3.882s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.114s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.359s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[4.678s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.708s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.762s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.854s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.893s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.911s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[7.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.686s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.699s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[7.902s] -- Found PythonExtra: /usr/bin/python3  
+[8.826s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[8.889s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.960s] -- Added test 'lint_cmake' to check CMake code style
+[8.965s] -- Added test 'xmllint' to check XML markup files
+[8.973s] -- Configuring done (8.9s)
+[9.059s] -- Generating done (0.1s)
+[9.082s] -- Build files have been written to: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces
+[9.093s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces
+[9.094s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces -- -j8 -l8
+[9.175s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[9.182s] [  2%] Built target ament_cmake_python_copy_status_interfaces
+[9.540s] running egg_info
+[9.540s] creating status_interfaces.egg-info
+[9.574s] writing status_interfaces.egg-info/PKG-INFO
+[9.574s] writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+[9.575s] writing top-level names to status_interfaces.egg-info/top_level.txt
+[9.576s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[9.588s] [  2%] Built target status_interfaces__rosidl_generator_type_description
+[9.605s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.622s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.664s] reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[9.669s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[9.714s] [  8%] Built target ament_cmake_python_build_status_interfaces_egg
+[10.059s] [  8%] Built target status_interfaces__cpp
+[10.078s] [ 11%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o[0m
+[10.082s] [ 17%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__description.c.o[0m
+[10.082s] [ 17%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__type_support.c.o[0m
+[10.158s] [ 20%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so[0m
+[10.215s] [ 20%] Built target status_interfaces__rosidl_generator_c
+[10.225s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.225s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.225s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.229s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.231s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.237s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.532s] [ 41%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o[0m
+[10.557s] [ 44%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[10.560s] [ 47%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[10.572s] [ 50%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[10.573s] [ 52%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o[0m
+[10.592s] [ 55%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[10.606s] [ 58%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so[0m
+[10.614s] [ 61%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.700s] [ 61%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[10.702s] [ 61%] Built target status_interfaces__rosidl_typesupport_c
+[10.886s] [ 64%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[10.892s] [ 67%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so[0m
+[10.953s] [ 67%] Built target status_interfaces__rosidl_typesupport_cpp
+[10.973s] [ 67%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[11.032s] [ 70%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[11.047s] [ 73%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.164s] [ 73%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[11.173s] [ 73%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[11.190s] [ 73%] Built target status_interfaces
+[11.207s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.552s] [ 76%] Built target status_interfaces__py
+[11.572s] [ 79%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o[0m
+[11.737s] [ 82%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_py.so[0m
+[11.839s] [ 82%] Built target status_interfaces__rosidl_generator_py
+[11.866s] [ 88%] [32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.866s] [ 88%] [32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.871s] [ 91%] [32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.964s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so[0m
+[11.970s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[11.979s] [100%] [32m[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[12.039s] [100%] Built target status_interfaces_s__rosidl_typesupport_c
+[12.039s] [100%] Built target status_interfaces_s__rosidl_typesupport_introspection_c
+[12.069s] [100%] Built target status_interfaces_s__rosidl_typesupport_fastrtps_c
+[12.080s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces -- -j8 -l8
+[12.089s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces
+[12.095s] -- Install configuration: ""
+[12.097s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+[12.097s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.json
+[12.097s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.097s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.098s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.098s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h
+[12.098s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.098s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h
+[12.098s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c
+[12.098s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h
+[12.098s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c
+[12.098s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h
+[12.098s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__description.c
+[12.099s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+[12.099s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+[12.099s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+[12.100s] -- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""
+[12.100s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.100s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.100s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.100s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.100s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[12.100s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+[12.100s] -- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[12.100s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.101s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.101s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.101s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp
+[12.101s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.101s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp
+[12.101s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp
+[12.102s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp
+[12.102s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp
+[12.102s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.102s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.102s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.102s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.102s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps
+[12.102s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[12.102s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[12.102s] -- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.102s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.102s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.102s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.102s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[12.102s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c
+[12.102s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.103s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+[12.103s] -- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.103s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+[12.104s] -- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""
+[12.104s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.104s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.104s] -- Up-to-date: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.104s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[12.104s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp
+[12.104s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+[12.104s] -- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.105s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+[12.105s] -- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""
+[12.105s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+[12.105s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+[12.105s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info
+[12.105s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[12.105s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[12.105s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[12.105s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[12.105s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces
+[12.106s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c
+[12.106s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py
+[12.106s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.106s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.106s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so
+[12.106s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so
+[12.106s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg
+[12.107s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status_s.c
+[12.107s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py
+[12.107s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status.py
+[12.107s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[12.142s] Listing '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces'...
+[12.142s] Compiling '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py'...
+[12.142s] Listing '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg'...
+[12.142s] Compiling '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py'...
+[12.142s] Compiling '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status.py'...
+[12.147s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[12.147s] -- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[12.147s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so
+[12.148s] -- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[12.148s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so
+[12.148s] -- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so" to ""
+[12.148s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so
+[12.148s] -- Set non-toolchain portion of runtime path of "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""
+[12.148s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl
+[12.148s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg
+[12.148s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+[12.149s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+[12.149s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+[12.149s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+[12.149s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/path.sh
+[12.150s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv
+[12.150s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/local_setup.bash
+[12.150s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/local_setup.sh
+[12.150s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh
+[12.150s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv
+[12.151s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/package.dsv
+[12.151s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+[12.151s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake
+[12.151s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.151s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[12.151s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.151s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake
+[12.152s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.152s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.152s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.152s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.152s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+[12.152s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.152s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.152s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.152s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+[12.152s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.152s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake
+[12.153s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[12.153s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+[12.153s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.153s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.153s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.153s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.153s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.154s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.154s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+[12.154s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+[12.154s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/package.xml
+[12.156s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces

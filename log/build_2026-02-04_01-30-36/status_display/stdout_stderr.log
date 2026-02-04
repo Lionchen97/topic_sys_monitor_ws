@@ -1,0 +1,54 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found status_interfaces: 0.0.0 (/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake)
+-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display
+[  0%] Built target sys_status_display_autogen_timestamp_deps
+[ 20%] [34m[1mAutomatic MOC for target sys_status_display[0m
+[ 20%] Built target sys_status_display_autogen
+[ 40%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/sys_status_display_autogen/mocs_compilation.cpp.o[0m
+In file included from [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display/sys_status_display_autogen/mocs_compilation.cpp:2[m[K:
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display/sys_status_display_autogen/VN7FW4JONI/moc_sys_status_display.cpp:89:48:[m[K [01;31m[Kerror: [m[K‘[01m[KstaticMetaObject[m[K’ is not a member of ‘[01m[Krclcpp::Node[m[K’
+   89 |     QMetaObject::SuperData::link<rclcpp::Node::[01;31m[KstaticMetaObject[m[K>(),
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display/sys_status_display_autogen/VN7FW4JONI/moc_sys_status_display.cpp:89:65:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQMetaObject::SuperData::link<<expression error> >()[m[K’
+   89 |     [01;31m[KQMetaObject::SuperData::link<rclcpp::Node::staticMetaObject>()[m[K,
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject:1[m[K,
+                 from [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display/sys_status_display_autogen/VN7FW4JONI/../../../../src/status_display/include/status_display/sys_status_display.h:4[m[K,
+                 from [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display/sys_status_display_autogen/VN7FW4JONI/moc_sys_status_display.cpp:10[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:599:69:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<const QMetaObject& MO> static constexpr QMetaObject::SuperData QMetaObject::SuperData::[01;32m[Klink[m[K()[m[K’
+  599 |         template <const QMetaObject &MO> static constexpr SuperData [01;36m[Klink[m[K()
+      |                                                                     [01;36m[K^~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:599:69:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display/sys_status_display_autogen/VN7FW4JONI/moc_sys_status_display.cpp:89:65:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   89 |     [01;31m[KQMetaObject::SuperData::link<rclcpp::Node::staticMetaObject>()[m[K,
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display/sys_status_display_autogen/VN7FW4JONI/moc_sys_status_display.cpp:[m[K In member function ‘[01m[Kvirtual void* SysStatusDisplay::[01;32m[Kqt_metacast[m[K(const char*)[m[K’:
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display/sys_status_display_autogen/VN7FW4JONI/moc_sys_status_display.cpp:110:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt_metacast[m[K’ is not a member of ‘[01m[Krclcpp::Node[m[K’
+  110 |     return rclcpp::Node::[01;31m[Kqt_metacast[m[K(_clname);
+      |                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display/sys_status_display_autogen/VN7FW4JONI/moc_sys_status_display.cpp:[m[K In member function ‘[01m[Kvirtual int SysStatusDisplay::[01;32m[Kqt_metacall[m[K(QMetaObject::Call, int, void**)[m[K’:
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display/sys_status_display_autogen/VN7FW4JONI/moc_sys_status_display.cpp:115:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt_metacall[m[K’ is not a member of ‘[01m[Krclcpp::Node[m[K’
+  115 |     _id = rclcpp::Node::[01;31m[Kqt_metacall[m[K(_c, _id, _a);
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:82: CMakeFiles/sys_status_display.dir/sys_status_display_autogen/mocs_compilation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/sys_status_display.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,242 @@
+[0.090s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.090s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7cd3d580cf20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cd3d580cb90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cd3d580cb90>>)
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.115s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/status_display' with type 'ros.ament_cmake' and name 'status_display'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/status_interfaces' with type 'ros.ament_cmake' and name 'status_interfaces'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/status_publisher' with type 'ros.ament_cmake' and name 'status_publisher'
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.148s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.148s] DEBUG:colcon.colcon_core.verb:Building package 'status_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces', 'merge_install': False, 'path': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_target' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_clean_cache' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_clean_first' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_force_configure' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'ament_cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'catkin_cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.149s] DEBUG:colcon.colcon_core.verb:Building package 'status_display' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display', 'merge_install': False, 'path': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display', 'symlink_install': False, 'test_result_base': None}
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_target' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.149s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.149s] DEBUG:colcon.colcon_core.verb:Building package 'status_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher', 'merge_install': False, 'path': '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.149s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.150s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_interfaces' with build type 'ament_cmake'
+[0.150s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_interfaces'
+[0.152s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.152s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces -- -j8 -l8
+[0.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces -- -j8 -l8
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces
+[0.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_interfaces)
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces' for CMake module files
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces' for CMake config files
+[0.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'cmake_prefix_path')
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.dsv'
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.sh'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib'
+[0.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'ld_library_path_lib')
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.dsv'
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.sh'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/bin'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/pkgconfig/status_interfaces.pc'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages'
+[0.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'pythonpath')
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/hook/pythonpath.dsv'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/hook/pythonpath.sh'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/bin'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/package.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/package.sh'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/package.bash'
+[0.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/package.zsh'
+[0.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/colcon-core/packages/status_interfaces)
+[0.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_interfaces)
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces' for CMake module files
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces' for CMake config files
+[0.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'cmake_prefix_path')
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.sh'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib'
+[0.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'ld_library_path_lib')
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.sh'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/bin'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/pkgconfig/status_interfaces.pc'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages'
+[0.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'pythonpath')
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/hook/pythonpath.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/hook/pythonpath.sh'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/bin'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/package.dsv'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/package.sh'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/package.bash'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/package.zsh'
+[0.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/colcon-core/packages/status_interfaces)
+[0.501s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display' with build type 'ament_cmake'
+[0.501s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display'
+[0.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.504s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher' with build type 'ament_cmake'
+[0.504s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher'
+[0.504s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display -- -j8 -l8
+[0.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher -- -j8 -l8
+[0.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher' returned '0': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher -- -j8 -l8
+[0.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher
+[0.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_publisher)
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher' for CMake module files
+[0.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher' returned '0': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher' for CMake config files
+[0.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_publisher', 'cmake_prefix_path')
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/hook/cmake_prefix_path.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/hook/cmake_prefix_path.sh'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/lib'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/bin'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/lib/pkgconfig/status_publisher.pc'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/lib/python3.12/site-packages'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/bin'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/package.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/package.sh'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/package.bash'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/package.zsh'
+[0.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/colcon-core/packages/status_publisher)
+[0.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_publisher)
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher' for CMake module files
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher' for CMake config files
+[0.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_publisher', 'cmake_prefix_path')
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/hook/cmake_prefix_path.dsv'
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/hook/cmake_prefix_path.sh'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/lib'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/bin'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/lib/pkgconfig/status_publisher.pc'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/lib/python3.12/site-packages'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/bin'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/package.dsv'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/package.sh'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/package.bash'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/status_publisher/package.zsh'
+[0.610s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher/share/colcon-core/packages/status_publisher)
+[4.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display' returned '2': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display -- -j8 -l8
+[4.677s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_display)
+[4.678s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display' for CMake module files
+[4.678s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display' for CMake config files
+[4.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_display', 'cmake_prefix_path')
+[4.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/hook/cmake_prefix_path.dsv'
+[4.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/hook/cmake_prefix_path.sh'
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/lib'
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/bin'
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/lib/pkgconfig/status_display.pc'
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/lib/python3.12/site-packages'
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/bin'
+[4.679s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/package.dsv'
+[4.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/package.sh'
+[4.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/package.bash'
+[4.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/package.zsh'
+[4.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/colcon-core/packages/status_display)
+[4.690s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.690s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.690s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[4.691s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.712s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.712s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.712s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.712s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.712s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[4.712s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.713s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/local_setup.sh'
+[4.713s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/_local_setup_util_sh.py'
+[4.714s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/setup.sh'
+[4.714s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/local_setup.bash'
+[4.715s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/setup.bash'
+[4.715s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/local_setup.zsh'
+[4.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/setup.zsh'

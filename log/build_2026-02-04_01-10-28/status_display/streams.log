@@ -1,0 +1,91 @@
+[0.042s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display -- -j8 -l8
+[0.059s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.231s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.334s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.341s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.350s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.359s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.405s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.406s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.519s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.624s] -- Found status_interfaces: 0.0.0 (/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake)
+[0.669s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.758s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.759s] -- Configured cppcheck include dirs: 
+[0.759s] -- Configured cppcheck exclude dirs and/or files: 
+[0.759s] -- Added test 'lint_cmake' to check CMake code style
+[0.759s] -- Added test 'uncrustify' to check C / C++ code style
+[0.759s] -- Configured uncrustify additional arguments: 
+[0.759s] -- Added test 'xmllint' to check XML markup files
+[0.760s] -- Configuring done (0.7s)
+[0.770s] -- Generating done (0.0s)
+[0.774s] -- Build files have been written to: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display
+[0.802s] [ 50%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[2.975s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+[2.975s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+[2.975s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:44[m[K,
+[2.975s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:1[m[K,
+[2.975s]                  from [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display/src/sys_status_display.cpp:1[m[K:
+[2.975s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In instantiation of ‘[01m[Kstatic typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2) [35m[K[with Func1 = void (SysStatusDisplay::*)(const QString&); Func2 = main(int, char**)::<lambda(const QString&)>; typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type = QMetaObject::Connection; typename QtPrivate::FunctionPointer<Func>::Object = SysStatusDisplay][m[K[m[K’:
+[2.975s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display/src/sys_status_display.cpp:60:21:[m[K   required from here
+[2.975s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:316:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQObject::connect(const QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(const QString&)>::Object*&, void (SysStatusDisplay::*&)(const QString&), const QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(const QString&)>::Object*&, std::remove_reference<main(int, char**)::<lambda(const QString&)>&>::type, Qt::ConnectionType)[m[K’
+[2.976s]   316 |         return [01;31m[Kconnect(sender, signal, sender, std::move(slot), Qt::DirectConnection)[m[K;
+[2.976s]       |                [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.976s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:43:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType)[m[K’
+[2.976s]   242 |     static inline QMetaObject::Connection [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal,
+[2.976s]       |                                           [01;36m[K^~~~~~~[m[K
+[2.976s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:43:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.976s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In substitution of ‘[01m[Ktemplate<class Func1, class Func2> static QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType) [35m[K[with Func1 = void (SysStatusDisplay::*)(const QString&); Func2 = main(int, char**)::<lambda(const QString&)>][m[K[m[K’:
+[2.976s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:316:23:[m[K   required from ‘[01m[Kstatic typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2) [35m[K[with Func1 = void (SysStatusDisplay::*)(const QString&); Func2 = main(int, char**)::<lambda(const QString&)>; typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type = QMetaObject::Connection; typename QtPrivate::FunctionPointer<Func>::Object = SysStatusDisplay][m[K[m[K’
+[2.976s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display/src/sys_status_display.cpp:60:21:[m[K   required from here
+[2.976s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:43:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KObject[m[K’ in ‘[01m[Kstruct QtPrivate::FunctionPointer<main(int, char**)::<lambda(const QString&)> >[m[K’
+[2.976s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In instantiation of ‘[01m[Kstatic typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2) [35m[K[with Func1 = void (SysStatusDisplay::*)(const QString&); Func2 = main(int, char**)::<lambda(const QString&)>; typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type = QMetaObject::Connection; typename QtPrivate::FunctionPointer<Func>::Object = SysStatusDisplay][m[K[m[K’:
+[2.976s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display/src/sys_status_display.cpp:60:21:[m[K   required from here
+[2.976s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)[m[K’
+[2.976s]   274 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)
+[2.976s]       |             [01;36m[K^~~~~~~[m[K
+[2.976s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.976s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:316:23:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 5 provided
+[2.976s]   316 |         return [01;36m[Kconnect(sender, signal, sender, std::move(slot), Qt::DirectConnection)[m[K;
+[2.976s]       |                [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.976s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0) && (! QtPrivate::FunctionPointer<Func2>::IsPointerToMemberFunction)), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)[m[K’
+[2.977s]   283 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,
+[2.977s]       |             [01;36m[K^~~~~~~[m[K
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:316:40:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ksender[m[K’ (type ‘[01m[Kconst QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(const QString&)>::Object*[m[K’ {aka ‘[01m[Kconst SysStatusDisplay*[m[K’}) to type ‘[01m[Kconst QObject*[m[K’
+[2.977s]   316 |         return connect(sender, signal, [01;36m[Ksender[m[K, std::move(slot), Qt::DirectConnection);
+[2.977s]       |                                        [01;36m[K^~~~~~[m[K
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)[m[K’
+[2.977s]   314 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)
+[2.977s]       |             [01;36m[K^~~~~~~[m[K
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:316:23:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 5 provided
+[2.977s]   316 |         return [01;36m[Kconnect(sender, signal, sender, std::move(slot), Qt::DirectConnection)[m[K;
+[2.977s]       |                [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)[m[K’
+[2.977s]   322 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,
+[2.977s]       |             [01;36m[K^~~~~~~[m[K
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:316:40:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ksender[m[K’ (type ‘[01m[Kconst QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(const QString&)>::Object*[m[K’ {aka ‘[01m[Kconst SysStatusDisplay*[m[K’}) to type ‘[01m[Kconst QObject*[m[K’
+[2.977s]   316 |         return connect(sender, signal, [01;36m[Ksender[m[K, std::move(slot), Qt::DirectConnection);
+[2.977s]       |                                        [01;36m[K^~~~~~[m[K
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:36:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)[m[K’
+[2.977s]   222 |     static QMetaObject::Connection [01;36m[Kconnect[m[K(const QObject *sender, const char *signal,
+[2.977s]       |                                    [01;36m[K^~~~~~~[m[K
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(const QString&)>::Object*[m[K’ {aka ‘[01m[Kconst SysStatusDisplay*[m[K’} to ‘[01m[Kconst QObject*[m[K’
+[2.977s]   222 |     static QMetaObject::Connection connect([01;36m[Kconst QObject *sender[m[K, const char *signal,
+[2.977s]       |                                            [01;36m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:36:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const QObject*, const QMetaMethod&, const QObject*, const QMetaMethod&, Qt::ConnectionType)[m[K’
+[2.977s]   225 |     static QMetaObject::Connection [01;36m[Kconnect[m[K(const QObject *sender, const QMetaMethod &signal,
+[2.977s]       |                                    [01;36m[K^~~~~~~[m[K
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(const QString&)>::Object*[m[K’ {aka ‘[01m[Kconst SysStatusDisplay*[m[K’} to ‘[01m[Kconst QObject*[m[K’
+[2.977s]   225 |     static QMetaObject::Connection connect([01;36m[Kconst QObject *sender[m[K, const QMetaMethod &signal,
+[2.977s]       |                                            [01;36m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:32:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const QObject*, const char*, const char*, Qt::ConnectionType) const[m[K’
+[2.977s]   481 | inline QMetaObject::Connection [01;36m[KQObject[m[K::connect(const QObject *asender, const char *asignal,
+[2.977s]       |                                [01;36m[K^~~~~~~[m[K
+[2.977s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:32:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 5 provided
+[4.173s] gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:76: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o] Error 1
+[4.173s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sys_status_display.dir/all] Error 2
+[4.173s] gmake: *** [Makefile:146: all] Error 2
+[4.175s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display' returned '2': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display -- -j8 -l8

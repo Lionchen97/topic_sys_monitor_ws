@@ -1,0 +1,9 @@
+[33mCMake Warning (dev) in CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target sys_status_publisher.
+  AUTOMOC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Core)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m

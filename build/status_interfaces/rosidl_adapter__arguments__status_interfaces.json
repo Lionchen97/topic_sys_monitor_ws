@@ -1,0 +1,6 @@
+{
+  "package_name": "status_interfaces",
+  "non_idl_tuples": [
+    "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_interfaces:msg/SystemStatus.msg"
+  ]
+}

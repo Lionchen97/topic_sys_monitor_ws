@@ -1,0 +1,20 @@
+[0.035s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display': AMENT_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display -- -j8 -l8
+[0.071s] [  0%] Built target sys_status_display_autogen_timestamp_deps
+[0.122s] [ 20%] [34m[1mAutomatic MOC for target sys_status_display[0m
+[0.150s] [ 20%] Built target sys_status_display_autogen
+[0.178s] [ 40%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[5.501s] [ 60%] [32m[1mLinking CXX executable sys_status_display[0m
+[6.006s] /usr/bin/ld: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o: in function `SysStatusDisplay::SysStatusDisplay()::{lambda(std::shared_ptr<status_interfaces::msg::SystemStatus_<std::allocator<void> > >)#1}::operator()(std::shared_ptr<status_interfaces::msg::SystemStatus_<std::allocator<void> > >) const':
+[6.007s] sys_status_display.cpp:(.text+0x339): undefined reference to `SysStatusDisplay::statusUpdated(QString const&)'
+[6.007s] /usr/bin/ld: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o: in function `SysStatusDisplay::SysStatusDisplay()':
+[6.008s] sys_status_display.cpp:(.text+0x50c): undefined reference to `vtable for SysStatusDisplay'
+[6.008s] /usr/bin/ld: sys_status_display.cpp:(.text+0x521): undefined reference to `vtable for SysStatusDisplay'
+[6.008s] /usr/bin/ld: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o: in function `main':
+[6.008s] sys_status_display.cpp:(.text+0xec0): undefined reference to `SysStatusDisplay::statusUpdated(QString const&)'
+[6.008s] /usr/bin/ld: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o: in function `std::enable_if<QtPrivate::FunctionPointer<main::{lambda(QString const&)#1}>::ArgumentCount==(-1), QMetaObject::Connection>::type QObject::connect<void (SysStatusDisplay::*)(QString const&), main::{lambda(QString const&)#1}>(QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(QString const&)>::Object const*, void (SysStatusDisplay::*)(QString const&), QObject const*, main::{lambda(QString const&)#1}, Qt::ConnectionType)':
+[6.008s] sys_status_display.cpp:(.text+0x15c2): undefined reference to `SysStatusDisplay::staticMetaObject'
+[6.041s] collect2: error: ld returned 1 exit status
+[6.043s] gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:196: sys_status_display] Error 1
+[6.043s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/sys_status_display.dir/all] Error 2
+[6.043s] gmake: *** [Makefile:146: all] Error 2
+[6.045s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display' returned '2': AMENT_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display -- -j8 -l8

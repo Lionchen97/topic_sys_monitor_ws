@@ -1,0 +1,62 @@
+[0.040s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display': AMENT_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display
+[0.174s] -- The C compiler identification is GNU 13.3.0
+[0.477s] -- The CXX compiler identification is GNU 13.3.0
+[0.759s] -- Detecting C compiler ABI info
+[0.907s] -- Detecting C compiler ABI info - done
+[0.913s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.914s] -- Detecting C compile features
+[0.914s] -- Detecting C compile features - done
+[0.951s] -- Detecting CXX compiler ABI info
+[1.093s] -- Detecting CXX compiler ABI info - done
+[1.100s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.100s] -- Detecting CXX compile features
+[1.102s] -- Detecting CXX compile features - done
+[1.106s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.242s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.350s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.449s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.461s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.501s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.585s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.590s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.669s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.739s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.782s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.896s] -- Found status_interfaces: 0.0.0 (/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/share/status_interfaces/cmake)
+[1.961s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.062s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.062s] -- Configured cppcheck include dirs: 
+[2.062s] -- Configured cppcheck exclude dirs and/or files: 
+[2.063s] -- Added test 'lint_cmake' to check CMake code style
+[2.065s] -- Added test 'uncrustify' to check C / C++ code style
+[2.065s] -- Configured uncrustify additional arguments: 
+[2.066s] -- Added test 'xmllint' to check XML markup files
+[2.068s] -- Configuring done (2.0s)
+[2.079s] -- Generating done (0.0s)
+[2.083s] -- Build files have been written to: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display
+[2.089s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display
+[2.091s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display': AMENT_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display -- -j8 -l8
+[2.135s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[3.010s] [100%] [32m[1mLinking CXX executable hello_qt[0m
+[3.328s] [100%] Built target hello_qt
+[3.337s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display -- -j8 -l8
+[3.339s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display': AMENT_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display
+[3.347s] -- Install configuration: ""
+[3.347s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/lib/status_display/hello_qt
+[3.347s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[3.348s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[3.348s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[3.348s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[3.351s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/environment/path.sh
+[3.351s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/environment/path.dsv
+[3.352s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/local_setup.bash
+[3.352s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/local_setup.sh
+[3.352s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/local_setup.zsh
+[3.352s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/local_setup.dsv
+[3.352s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/package.dsv
+[3.352s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/ament_index/resource_index/packages/status_display
+[3.352s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[3.353s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[3.353s] -- Installing: /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display/share/status_display/package.xml
+[3.354s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display

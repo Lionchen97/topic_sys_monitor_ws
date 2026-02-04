@@ -1,0 +1,10 @@
+{
+  "package_name": "status_interfaces",
+  "output_dir": "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces/rosidl_generator_type_description/status_interfaces",
+  "idl_tuples": [
+    "/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_interfaces/rosidl_adapter/status_interfaces:msg/SystemStatus.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

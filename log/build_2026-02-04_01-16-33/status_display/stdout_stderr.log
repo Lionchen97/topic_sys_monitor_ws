@@ -1,0 +1,15 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sys_status_display[0m
+/usr/bin/ld: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o: in function `main':
+sys_status_display.cpp:(.text+0x32e): undefined reference to `SysStatusDisplay::statusUpdated(QString const&)'
+/usr/bin/ld: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o: in function `std::enable_if<QtPrivate::FunctionPointer<main::{lambda(QString const&)#1}>::ArgumentCount==(-1), QMetaObject::Connection>::type QObject::connect<void (SysStatusDisplay::*)(QString const&), main::{lambda(QString const&)#1}>(QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(QString const&)>::Object const*, void (SysStatusDisplay::*)(QString const&), QObject const*, main::{lambda(QString const&)#1}, Qt::ConnectionType)':
+sys_status_display.cpp:(.text+0x801): undefined reference to `SysStatusDisplay::staticMetaObject'
+/usr/bin/ld: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o: in function `SysStatusDisplay::SysStatusDisplay()::{lambda(std::shared_ptr<status_interfaces::msg::SystemStatus_<std::allocator<void> > >)#1}::operator()(std::shared_ptr<status_interfaces::msg::SystemStatus_<std::allocator<void> > >) const':
+sys_status_display.cpp:(.text._ZZN16SysStatusDisplayC4EvENKUlSt10shared_ptrIN17status_interfaces3msg13SystemStatus_ISaIvEEEEE_clES6_[_ZZN16SysStatusDisplayC4EvENKUlSt10shared_ptrIN17status_interfaces3msg13SystemStatus_ISaIvEEEEE_clES6_]+0x2d3): undefined reference to `SysStatusDisplay::statusUpdated(QString const&)'
+/usr/bin/ld: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o: in function `SysStatusDisplay::SysStatusDisplay()':
+sys_status_display.cpp:(.text._ZN16SysStatusDisplayC2Ev[_ZN16SysStatusDisplayC5Ev]+0x126): undefined reference to `vtable for SysStatusDisplay'
+/usr/bin/ld: sys_status_display.cpp:(.text._ZN16SysStatusDisplayC2Ev[_ZN16SysStatusDisplayC5Ev]+0x13b): undefined reference to `vtable for SysStatusDisplay'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:174: sys_status_display] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sys_status_display.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

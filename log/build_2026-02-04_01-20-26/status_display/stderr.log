@@ -1,0 +1,12 @@
+
+AutoMoc error
+-------------
+"SRC:/src/sys_status_display.cpp"
+contains a "Q_OBJECT" macro, but does not include "sys_status_display.moc"!
+Consider to
+  - add #include "sys_status_display.moc"
+  - enable SKIP_AUTOMOC for this file
+
+gmake[2]: *** [CMakeFiles/sys_status_display_autogen.dir/build.make:74: sys_status_display_autogen/timestamp] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/sys_status_display_autogen.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

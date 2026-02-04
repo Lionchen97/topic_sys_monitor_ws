@@ -1,0 +1,14 @@
+[0.041s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display': AMENT_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display -- -j8 -l8
+[0.073s] [  0%] Built target sys_status_display_autogen_timestamp_deps
+[0.086s] [ 20%] [34m[1mAutomatic MOC for target sys_status_display[0m
+[0.117s] [ 20%] Built target sys_status_display_autogen
+[0.140s] [ 40%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/sys_status_display_autogen/mocs_compilation.cpp.o[0m
+[0.141s] [ 60%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[0.254s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display/src/sys_status_display.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ksys_status_dsiplay.h: No such file or directory
+[0.255s]     5 | #include [01;31m[K"sys_status_dsiplay.h"[m[K
+[0.255s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.255s] compilation terminated.
+[0.257s] gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:96: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o] Error 1
+[0.258s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/sys_status_display.dir/all] Error 2
+[0.258s] gmake: *** [Makefile:146: all] Error 2
+[0.260s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display' returned '2': AMENT_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_display -- -j8 -l8

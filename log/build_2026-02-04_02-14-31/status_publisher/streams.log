@@ -1,0 +1,37 @@
+[0.041s] Invoking command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher -- -j8 -l8
+[0.084s] [ 50%] [32mBuilding CXX object CMakeFiles/sys_status_publisher.dir/src/sys_status_publisher.cpp.o[0m
+[1.864s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:[m[K In member function ‘[01m[Kvoid SysStatusPublisher::[01;32m[Kpublish_status[m[K()[m[K’:
+[1.864s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:87:51:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Ksg_mem_stats*[01;32m[K sg_get_mem_stats[m[K(size_t*)[m[K’
+[1.864s]    87 |         sg_mem_stats *mem_stats = [01;31m[Ksg_get_mem_stats()[m[K;
+[1.864s]       |                                   [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+[1.864s] In file included from [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:3[m[K:
+[1.864s] [01m[K/usr/include/statgrab.h:227:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.864s]   227 | __sg_public sg_mem_stats *[01;36m[Ksg_get_mem_stats[m[K(size_t *entries);
+[1.864s]       |                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.864s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:141:54:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Ksg_load_stats*[01;32m[K sg_get_load_stats[m[K(size_t*)[m[K’
+[1.864s]   141 |         sg_load_stats *load_stats = [01;31m[Ksg_get_load_stats()[m[K;
+[1.864s]       |                                     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[1.864s] [01m[K/usr/include/statgrab.h:238:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.864s]   238 | __sg_public sg_load_stats *[01;36m[Ksg_get_load_stats[m[K(size_t *entries);
+[1.864s]       |                            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.864s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:145:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kload_1min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.864s]   145 |             double [01;35m[Kload_1min[m[K = load_stats->min1;
+[1.864s]       |                    [01;35m[K^~~~~~~~~[m[K
+[1.864s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:146:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kload_5min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.864s]   146 |             double [01;35m[Kload_5min[m[K = load_stats->min5;
+[1.864s]       |                    [01;35m[K^~~~~~~~~[m[K
+[1.864s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:147:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kload_15min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.864s]   147 |             double [01;35m[Kload_15min[m[K = load_stats->min15;
+[1.864s]       |                    [01;35m[K^~~~~~~~~~[m[K
+[1.872s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.872s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:197:18:[m[K [01;31m[Kerror: [m[K‘[01m[KSG_ERROR_LEVEL_WARNING[m[K’ was not declared in this scope
+[1.872s]   197 |     sg_set_error([01;31m[KSG_ERROR_LEVEL_WARNING[m[K);
+[1.872s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.875s] [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:197:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksg_set_error[m[K’ was not declared in this scope; did you mean ‘[01m[Ksg_get_error[m[K’?
+[1.875s]   197 |     [01;31m[Ksg_set_error[m[K(SG_ERROR_LEVEL_WARNING);
+[1.875s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.875s]       |     [32m[Ksg_get_error[m[K
+[2.734s] gmake[2]: *** [CMakeFiles/sys_status_publisher.dir/build.make:76: CMakeFiles/sys_status_publisher.dir/src/sys_status_publisher.cpp.o] Error 1
+[2.734s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sys_status_publisher.dir/all] Error 2
+[2.734s] gmake: *** [Makefile:146: all] Error 2
+[2.736s] Invoked command in '/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher' returned '2': CMAKE_PREFIX_PATH=/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_interfaces:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_publisher:/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/install/status_display:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/build/status_publisher -- -j8 -l8

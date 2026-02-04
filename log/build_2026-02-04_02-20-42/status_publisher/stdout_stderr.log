@@ -1,0 +1,31 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/sys_status_publisher.dir/src/sys_status_publisher.cpp.o[0m
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:[m[K In member function ‘[01m[Kvoid SysStatusPublisher::[01;32m[Kpublish_status[m[K()[m[K’:
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:44:51:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Ksg_cpu_stats*[01;32m[K sg_get_cpu_stats[m[K(size_t*)[m[K’
+   44 | tats *cpu_stats = [01;31m[Ksg_get_cpu_stats()[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+
+In file included from [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:3[m[K:
+[01m[K/usr/include/statgrab.h:191:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  191 | __sg_public sg_cpu_stats *[01;36m[Ksg_get_cpu_stats[m[K(size_t *entries);
+      |                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:80:51:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Ksg_mem_stats*[01;32m[K sg_get_mem_stats[m[K(size_t*)[m[K’
+   80 | tats *mem_stats = [01;31m[Ksg_get_mem_stats()[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+
+[01m[K/usr/include/statgrab.h:227:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  227 | __sg_public sg_mem_stats *[01;36m[Ksg_get_mem_stats[m[K(size_t *entries);
+      |                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:128:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ksg_get_version[m[K’ was not declared in this scope; did you mean ‘[01m[Ksg_get_error[m[K’?
+  128 | libstatgrab version: " << [01;31m[Ksg_get_version[m[K() << std::endl;
+      |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                           [32m[Ksg_get_error[m[K
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_publisher/src/sys_status_publisher.cpp:131:16:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Ksg_error[01;32m[K sg_init[m[K(int)[m[K’
+  131 |     if ([01;31m[Ksg_init()[m[K != 0)
+      |         [01;31m[K~~~~~~~^~[m[K
+[01m[K/usr/include/statgrab.h:130:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  130 | __sg_public sg_error [01;36m[Ksg_init[m[K(int ignore_init_errors);
+      |                      [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sys_status_publisher.dir/build.make:76: CMakeFiles/sys_status_publisher.dir/src/sys_status_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sys_status_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

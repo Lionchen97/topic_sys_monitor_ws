@@ -1,0 +1,67 @@
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:1[m[K,
+                 from [01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display/src/sys_status_display.cpp:1[m[K:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In instantiation of ‘[01m[Kstatic typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2) [35m[K[with Func1 = void (SysStatusDisplay::*)(const QString&); Func2 = main(int, char**)::<lambda(const QString&)>; typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type = QMetaObject::Connection; typename QtPrivate::FunctionPointer<Func>::Object = SysStatusDisplay][m[K[m[K’:
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display/src/sys_status_display.cpp:60:21:[m[K   required from here
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:316:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQObject::connect(const QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(const QString&)>::Object*&, void (SysStatusDisplay::*&)(const QString&), const QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(const QString&)>::Object*&, std::remove_reference<main(int, char**)::<lambda(const QString&)>&>::type, Qt::ConnectionType)[m[K’
+  316 |         return [01;31m[Kconnect(sender, signal, sender, std::move(slot), Qt::DirectConnection)[m[K;
+      |                [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:43:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType)[m[K’
+  242 |     static inline QMetaObject::Connection [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal,
+      |                                           [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:43:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In substitution of ‘[01m[Ktemplate<class Func1, class Func2> static QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const typename QtPrivate::FunctionPointer<Func2>::Object*, Func2, Qt::ConnectionType) [35m[K[with Func1 = void (SysStatusDisplay::*)(const QString&); Func2 = main(int, char**)::<lambda(const QString&)>][m[K[m[K’:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:316:23:[m[K   required from ‘[01m[Kstatic typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2) [35m[K[with Func1 = void (SysStatusDisplay::*)(const QString&); Func2 = main(int, char**)::<lambda(const QString&)>; typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type = QMetaObject::Connection; typename QtPrivate::FunctionPointer<Func>::Object = SysStatusDisplay][m[K[m[K’
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display/src/sys_status_display.cpp:60:21:[m[K   required from here
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:242:43:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KObject[m[K’ in ‘[01m[Kstruct QtPrivate::FunctionPointer<main(int, char**)::<lambda(const QString&)> >[m[K’
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h: In instantiation of ‘[01m[Kstatic typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2) [35m[K[with Func1 = void (SysStatusDisplay::*)(const QString&); Func2 = main(int, char**)::<lambda(const QString&)>; typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type = QMetaObject::Connection; typename QtPrivate::FunctionPointer<Func>::Object = SysStatusDisplay][m[K[m[K’:
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display/src/sys_status_display.cpp:60:21:[m[K   required from here
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)[m[K’
+  274 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)
+      |             [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:274:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:316:23:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 5 provided
+  316 |         return [01;36m[Kconnect(sender, signal, sender, std::move(slot), Qt::DirectConnection)[m[K;
+      |                [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(((int)(QtPrivate::FunctionPointer<Func2>::ArgumentCount) >= 0) && (! QtPrivate::FunctionPointer<Func2>::IsPointerToMemberFunction)), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)[m[K’
+  283 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,
+      |             [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:283:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:316:40:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ksender[m[K’ (type ‘[01m[Kconst QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(const QString&)>::Object*[m[K’ {aka ‘[01m[Kconst SysStatusDisplay*[m[K’}) to type ‘[01m[Kconst QObject*[m[K’
+  316 |         return connect(sender, signal, [01;36m[Ksender[m[K, std::move(slot), Qt::DirectConnection);
+      |                                        [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, Func2)[m[K’
+  314 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, Func2 slot)
+      |             [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:314:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:316:23:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 5 provided
+  316 |         return [01;36m[Kconnect(sender, signal, sender, std::move(slot), Qt::DirectConnection)[m[K;
+      |                [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Func1, class Func2> static typename std::enable_if<(QtPrivate::FunctionPointer<Func2>::ArgumentCount == -1), QMetaObject::Connection>::type QObject::[01;32m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func>::Object*, Func1, const QObject*, Func2, Qt::ConnectionType)[m[K’
+  322 |             [01;36m[Kconnect[m[K(const typename QtPrivate::FunctionPointer<Func1>::Object *sender, Func1 signal, const QObject *context, Func2 slot,
+      |             [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:322:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:316:40:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ksender[m[K’ (type ‘[01m[Kconst QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(const QString&)>::Object*[m[K’ {aka ‘[01m[Kconst SysStatusDisplay*[m[K’}) to type ‘[01m[Kconst QObject*[m[K’
+  316 |         return connect(sender, signal, [01;36m[Ksender[m[K, std::move(slot), Qt::DirectConnection);
+      |                                        [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:36:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)[m[K’
+  222 |     static QMetaObject::Connection [01;36m[Kconnect[m[K(const QObject *sender, const char *signal,
+      |                                    [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:222:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(const QString&)>::Object*[m[K’ {aka ‘[01m[Kconst SysStatusDisplay*[m[K’} to ‘[01m[Kconst QObject*[m[K’
+  222 |     static QMetaObject::Connection connect([01;36m[Kconst QObject *sender[m[K, const char *signal,
+      |                                            [01;36m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:36:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const QObject*, const QMetaMethod&, const QObject*, const QMetaMethod&, Qt::ConnectionType)[m[K’
+  225 |     static QMetaObject::Connection [01;36m[Kconnect[m[K(const QObject *sender, const QMetaMethod &signal,
+      |                                    [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:225:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst QtPrivate::FunctionPointer<void (SysStatusDisplay::*)(const QString&)>::Object*[m[K’ {aka ‘[01m[Kconst SysStatusDisplay*[m[K’} to ‘[01m[Kconst QObject*[m[K’
+  225 |     static QMetaObject::Connection connect([01;36m[Kconst QObject *sender[m[K, const QMetaMethod &signal,
+      |                                            [01;36m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:32:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQMetaObject::Connection QObject::[01;32m[Kconnect[m[K(const QObject*, const char*, const char*, Qt::ConnectionType) const[m[K’
+  481 | inline QMetaObject::Connection [01;36m[KQObject[m[K::connect(const QObject *asender, const char *asignal,
+      |                                [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:481:32:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 5 provided
+gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:76: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sys_status_display.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

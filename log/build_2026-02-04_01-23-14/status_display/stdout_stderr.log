@@ -1,0 +1,12 @@
+[  0%] Built target sys_status_display_autogen_timestamp_deps
+[ 20%] [34m[1mAutomatic MOC for target sys_status_display[0m
+[ 20%] Built target sys_status_display_autogen
+[ 40%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/sys_status_display_autogen/mocs_compilation.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[01m[K/home/darkhorse/project/ros2/CHAPT3/topic_sys_monitor_ws/src/status_display/src/sys_status_display.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ksys_status_dsiplay.h: No such file or directory
+    5 | #include [01;31m[K"sys_status_dsiplay.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:96: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/sys_status_display.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
